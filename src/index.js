@@ -12,9 +12,9 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 
-import App from './App';
+import App from './App/App';
 
-import './i18n';
+import './App/i18n';
 
 import configureStore from './store/store';
 const store = configureStore();

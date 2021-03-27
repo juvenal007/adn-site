@@ -4,7 +4,7 @@
 .titulo {
   padding: 5% 0;
   text-align: center;
-  background: #0c7e61;
+  background: #5c50a8;
   font-size: 2rem;
   font-weight: bold;
   padding-left: 5rem;
@@ -18,7 +18,7 @@
 }
 .sub-titulo {
   padding: 5% 0;
-  background: #0c7e61;
+  background: #5c50a8;
   display: inline-block;
   font-size: 1rem;
   padding-left: 2rem;
@@ -29,4 +29,21 @@
 }
 .hijo {
   padding: 5% 0;
+}
+.input:focus { 
+  outline: none !important;
+  border-color: #719ECE;
+  box-shadow: 0 0 10px #719ECE;
+}
+.textarea:focus { 
+  outline: none !important;
+  border-color: #719ECE;
+  box-shadow: 0 0 10px #719ECE;
+}
+select {
+  border-style: inset;
+  outline-color: orange;
+}
+.forma select:focus {
+  border-color: #2a6dc9 !important;
 }
